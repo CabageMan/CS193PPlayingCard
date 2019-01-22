@@ -12,6 +12,7 @@
 		2454E4D821F7796E00A5DF19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2454E4D621F7796E00A5DF19 /* Main.storyboard */; };
 		2454E4DA21F7796E00A5DF19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2454E4D921F7796E00A5DF19 /* Assets.xcassets */; };
 		2454E4DD21F7796E00A5DF19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2454E4DB21F7796E00A5DF19 /* LaunchScreen.storyboard */; };
+		2454E4E521F77AAB00A5DF19 /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2454E4E421F77AAB00A5DF19 /* PlayingCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2454E4D921F7796E00A5DF19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2454E4DC21F7796E00A5DF19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2454E4DE21F7796E00A5DF19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2454E4E421F77AAB00A5DF19 /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				2454E4D221F7796D00A5DF19 /* AppDelegate.swift */,
-				2454E4D421F7796D00A5DF19 /* ViewController.swift */,
 				2454E4D621F7796E00A5DF19 /* Main.storyboard */,
+				2454E4E421F77AAB00A5DF19 /* PlayingCard.swift */,
+				2454E4D421F7796D00A5DF19 /* ViewController.swift */,
 				2454E4D921F7796E00A5DF19 /* Assets.xcassets */,
 				2454E4DB21F7796E00A5DF19 /* LaunchScreen.storyboard */,
 				2454E4DE21F7796E00A5DF19 /* Info.plist */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2454E4D521F7796D00A5DF19 /* ViewController.swift in Sources */,
+				2454E4E521F77AAB00A5DF19 /* PlayingCard.swift in Sources */,
 				2454E4D321F7796D00A5DF19 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
