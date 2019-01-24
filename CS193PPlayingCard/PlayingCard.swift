@@ -8,7 +8,13 @@
 
 import Foundation
 
-struct PlaingCard {
+struct PlaingCard: CustomStringConvertible {
+    
+    // Implementation CustomStringConvertible Protocol
+    var description: String {
+        return "\(rank) \(suit)"
+    }
+    
     
     var suit: Suit
     var rank: Rank
