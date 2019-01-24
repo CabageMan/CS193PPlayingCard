@@ -10,13 +10,16 @@ import Foundation
 
 struct PlaingCard {
     
-    
+    var suit: Suit
+    var rank: Rank
     
     enum Suit: String {
         case spades = "♠️"
         case hearts = "♥️"
         case clubs = "♣️"
         case diamonds = "♦️"
+        
+        static var all = [Suit.spades, .hearts, .clubs, .diamonds]
     }
     
     enum Rank {
@@ -33,6 +36,15 @@ struct PlaingCard {
                 case .face(let kind) where kind == "K": return 13
                 default: return 0
             }
+        }
+        
+        static var all: [Rank] {
+            var allRanks = [Rank.ace]
+            for pips in 2...10 {
+                allRanks.append(Rank.numeric(pips))
+            }
+            allRanks += [Rank.face("J"), Rank.face("Q"), Rank.face("K")]
+            return allRanks
         }
     }
     
